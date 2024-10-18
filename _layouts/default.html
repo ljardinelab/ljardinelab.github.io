@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %} <!-- Call head.html here -->
+  
+  <!-- Add Favicon -->
+   <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon" />
+
+  <body>
+    <header>
+      <!-- Include site header (optional) -->
+      {% include header.html %}
+    </header>
+
+    <main>
+      <!-- The main content of the page -->
+      {{ content }}
+    </main>
+
+    <footer>
+      <p style="text-align: right; font-size: 15px;margin: 20px 0;padding: 20px;">© 2024 Jardine Lab</p>
+    </footer>
+  </body>
+</html>
