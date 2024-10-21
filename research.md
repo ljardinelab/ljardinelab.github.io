@@ -34,14 +34,11 @@ body {
 ul {
   line-height: 1.6;
   margin-left: 20px;
+  font-size: 0.9em;
 }
 
 ul li {
   margin-bottom: 15px; /* Add space between the list items */
-}
-
-ul li strong {
-  color: #2c3e50; /* Optional: different color for emphasis */
 }
 
 /* Container for three-column layout */
@@ -71,29 +68,17 @@ ul li strong {
   }
 }
 </style>
-<div class="values-page-intro">
+
+<div class="research-page-intro">
 <p>Our current work includes:</p>
 </div>
+<ul>
+  <li>Using a transcriptional readout of blood cell differentiation to risk-stratify Acute Lymphoblastic Leukaemia</li>
 
-<div class="work-container">
-  <div class="work-column">
-    <ul>
-      <li><strong>Using a transcriptional readout of blood cell differentiation to risk-stratify Acute Lymphoblastic Leukaemia</strong></li>
-    </ul>
-  </div>
+  <li>Precision targeting of Primary CNS Lymphoma and its tumour microenvironment</li>
 
-  <div class="work-column">
-    <ul>
-      <li><strong>Precision targeting of Primary CNS Lymphoma and its tumour microenvironment</strong></li>
-    </ul>
-  </div>
-
-  <div class="work-column">
-    <ul>
-      <li><strong>Investigating organ tropism in Acute Myeloid Leukaemia</strong></li>
-    </ul>
-  </div>
-</div>
+  <li>Investigating organ tropism in Acute Myeloid Leukaemia</li>
+</ul>
 
 <h1 class="research-page-title">Collaborations</h1>
 
